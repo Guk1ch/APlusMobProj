@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace APlusMobProj.Pages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ProjInfoTabbedPage : TabbedPage
+	public partial class ProjInfoPage : TabbedPage
 	{
-		public ProjInfoTabbedPage()
+		public ProjInfoPage(string p)
 		{
 			InitializeComponent();
 		}

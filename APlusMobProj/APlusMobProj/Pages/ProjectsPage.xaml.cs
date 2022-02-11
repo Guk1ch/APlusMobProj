@@ -16,9 +16,14 @@ namespace APlusMobProj
 		{
 			InitializeComponent();
 		}
-		private async void project_listview_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+		//private async void project_listview_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+		//{
+		//	await Navigation.PushAsync(new ProjInfoPage(project_listview.SelectedItem.ToString()));
+		//}
+
+		private async void project_listview_ItemSelected_1(object sender, SelectedItemChangedEventArgs e)
 		{
-			await Navigation.PushAsync(new ProjInfoTabbedPage(project_listview.SelectedItem.ToString()));
+			await Navigation.PushAsync(new Pages.ProjInfoPage(project_listview.SelectedItem.ToString()));
 		}
 	}
 }

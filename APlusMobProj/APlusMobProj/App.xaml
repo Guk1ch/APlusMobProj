@@ -3,6 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="APlusMobProj.App">
     <Application.Resources>
-
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="DeepSkyBlue"/>
+            <Setter Property="CornerRadius" Value="50"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="#e5e5e5"/>
+        </Style>
+        <Style TargetType="Editor">
+            <Setter Property="BackgroundColor" Value="#e5e5e5"/>
+        </Style>
     </Application.Resources>
 </Application>

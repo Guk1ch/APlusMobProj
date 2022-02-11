@@ -14,7 +14,7 @@
             <Entry Placeholder="E-mail" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
             <Entry Placeholder="Пароль" IsPassword="True" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
             <Entry Placeholder="Пароль" IsPassword="True" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
-            <Button x:Name="Btn_Registration" Text="Зарегистрироваться"  TextColor="White" BackgroundColor="#00B2FF" BorderRadius ="45" HorizontalOptions="Center" WidthRequest="350"/>
+            <Button x:Name="Btn_Registration" Text="Зарегистрироваться"  TextColor="White"  HorizontalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

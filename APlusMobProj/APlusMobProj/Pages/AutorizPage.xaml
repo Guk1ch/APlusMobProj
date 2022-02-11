@@ -11,8 +11,8 @@
                 <Entry Placeholder="Пароль" IsPassword="True" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                <Button x:Name="btn_Registr" Text="Зарегистрироваться" TextColor="White" BackgroundColor="#00B2FF" BorderRadius ="45" HorizontalOptions="Start" WidthRequest="190" Clicked="btn_Registr_Clicked"/>
-                <Button x:Name="btn_Entery" Text="Войти" TextColor="White" BackgroundColor="#00B2FF" BorderRadius ="45" HorizontalOptions="End" WidthRequest="190" Clicked="btn_Entery_Clicked"/>
+                <Button x:Name="btn_Registr" Text="Зарегистрироваться" TextColor="White"  HorizontalOptions="Start" Clicked="btn_Registr_Clicked"/>
+                <Button x:Name="btn_Entery" Text="Войти" TextColor="White"  HorizontalOptions="End"  Clicked="btn_Entery_Clicked"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

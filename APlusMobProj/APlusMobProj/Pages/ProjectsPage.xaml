@@ -45,6 +45,6 @@
 
     </ContentPage.Resources>
     <StackLayout>
-        <ListView x:Name="project_listview" ItemsSource="{StaticResource Key=Projects}" ItemSelected="project_listview_ItemSelected"/>
+        <ListView x:Name="project_listview" ItemsSource="{StaticResource Key=Projects}" ItemSelected="project_listview_ItemSelected_1"/>
     </StackLayout>
 </ContentPage>

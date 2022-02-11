@@ -1,10 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="APlusMobProj.ProjectsPage">
+             x:Class="APlusMobProj.ProjectsPage"
+             Visual = "Material">
+    
     <NavigationPage.TitleView>
-        <StackLayout>
+        <StackLayout Padding="0, 0, 20, 0" Orientation="Horizontal">
             <Label Text = "Проекты" Margin="0, 0, 75, 0" TextColor="White" HorizontalTextAlignment="Center" FontSize="Title"/>
+            <Label x:Name="Add"
+                   FontFamily="AplusFont"
+                   FontSize="Title"
+                   HorizontalOptions="EndAndExpand"
+                   Text="&#xe145;"
+                   TextColor="White"/>
         </StackLayout>
     </NavigationPage.TitleView>
     <ContentPage.Content>

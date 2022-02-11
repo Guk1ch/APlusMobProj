@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="APlusMobProj.RegistPage">
+             x:Class="APlusMobProj.RegistPage"
+             Visual = "Material">
     <NavigationPage.TitleView>
         <StackLayout>
             <Label Text = "Регистрация" Margin="0, 0, 75, 0" TextColor="White" HorizontalTextAlignment="Center" FontSize="Title"/>

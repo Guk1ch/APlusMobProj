@@ -16,10 +16,10 @@ namespace APlusMobProj
 		{
 			InitializeComponent();
 		}
-		//private async void project_listview_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-		//{
-		//	await Navigation.PushAsync(new ProjInfoPage(project_listview.SelectedItem.ToString()));
-		//}
+		private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+		{
+			await Navigation.PushAsync(new Pages.CreateProjPage());
+		}
 
 		private async void project_listview_ItemSelected_1(object sender, SelectedItemChangedEventArgs e)
 		{

@@ -2,7 +2,8 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:APlusMobProj.Pages"
-             x:Class="APlusMobProj.Pages.ProjInfoPage">
+             x:Class="APlusMobProj.Pages.ProjInfoPage"
+             Visual = "Material">
   <!--Pages can be added as references or inline-->
     <TabbedPage.Children>
         <local:AboutPage Title="О Проекте"/>

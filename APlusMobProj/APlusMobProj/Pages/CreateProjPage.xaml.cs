@@ -16,5 +16,15 @@ namespace APlusMobProj.Pages
 		{
 			InitializeComponent();
 		}
+
+		private void btn_Cancel_Clicked(object sender, EventArgs e)
+		{
+
+		}
+
+		private void btn_Add_Clicked(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

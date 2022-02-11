@@ -16,5 +16,9 @@ namespace APlusMobProj
 		{
 			InitializeComponent();
 		}
+		private async void project_listview_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+		{
+			await Navigation.PushAsync(new ProjInfoTabbedPage(project_listview.SelectedItem.ToString()));
+		}
 	}
 }

@@ -2,6 +2,8 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("MaterialIcons-Regular.ttf", Alias = "AplusFont")]
+
 namespace APlusMobProj
 {
 	public partial class App : Application

@@ -25,5 +25,6 @@ namespace APlusMobProj
 		{
 			await Navigation.PushAsync(new Pages.ProjInfoPage(project_listview.SelectedItem.ToString()));
 		}
+
 	}
 }

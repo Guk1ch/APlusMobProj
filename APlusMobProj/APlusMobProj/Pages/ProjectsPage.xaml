@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="APlusMobProj.ProjectsPage"
              NavigationPage.HasBackButton="False"
-             Visual = "Material"
-             Title="Projects">
+             Visual = "Material">
 
     <NavigationPage.TitleView>
         <StackLayout Padding="0, 0, 20, 0" Orientation="Horizontal">
@@ -22,7 +21,7 @@
     </NavigationPage.TitleView>
     <ScrollView>
         <StackLayout>
-            <ListView x:Name="project_listview" ItemsSource="{StaticResource Key=Projects}" ItemSelected="project_listview_ItemSelected_1">
+            <ListView x:Name="project_listview" ItemsSource="{Binding}" ItemSelected="project_listview_ItemSelected_1">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

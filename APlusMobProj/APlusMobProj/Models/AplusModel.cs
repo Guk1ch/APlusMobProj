@@ -6,7 +6,7 @@ using SQLite;
 namespace APlusMobProj.Models
 {
 	[Table("Projects")]
-	class AplusModel
+	public class AplusModel
 	{
         [PrimaryKey, AutoIncrement, Column("_id")]
         public int ID { get; set; }

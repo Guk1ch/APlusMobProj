@@ -11,11 +11,11 @@
     </NavigationPage.TitleView>
     <ContentPage.Content>
         <StackLayout>
-            <Entry Placeholder="Имя проекта" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
-            <Editor Placeholder="Описание" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
-            <Entry Placeholder="Телефон №1" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
-            <Entry Placeholder="E-mail" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
-            <Entry Placeholder="Адрес" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
+            <Entry Text="{Binding NameProject}" Placeholder="Имя проекта" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
+            <Editor Text="{Binding Description}" Placeholder="Описание" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
+            <Entry Text="{Binding NumberPhone}" Placeholder="Телефон №1" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
+            <Entry Text="{Binding Email}" Placeholder="E-mail" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
+            <Entry Text="{Binding Address}" Placeholder="Адрес" PlaceholderColor="Black" BackgroundColor="#E8E8E8" Margin="15"/>
             <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
                 <Button x:Name="btn_Cancel" Text="Отмена" TextColor="White"  Clicked="btn_Cancel_Clicked" WidthRequest="165" HorizontalOptions="Start" Margin="10"/>
                 <Button x:Name="btn_Add" Text="Добавить" TextColor="White"  Clicked="btn_Add_Clicked" WidthRequest="165" HorizontalOptions="End" Margin="10"/>

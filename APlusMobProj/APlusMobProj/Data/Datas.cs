@@ -6,10 +6,10 @@ using APlusMobProj.Models;
 
 namespace APlusMobProj.Data
 {
-	class Data
+	public class Datas
 	{
         readonly SQLiteConnection db;
-        public Data(string connectionString)
+        public Datas(string connectionString)
         {
             db = new SQLiteConnection(connectionString);
             db.CreateTable<AplusModel>();
